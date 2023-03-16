@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="Id%p1HF5=g|@|S*e)$pe" x="0" y="0"><statement name="HANDLER"><block type="playMelody" id="!$mqBg|eJJLh.w?Nc(/3"><value name="melody"><shadow type="melody_editor" id="Md;=?nbB1lC|c0kIuZ,r"><field name="melody">"- - - - - - - - "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="!;J0F(;^Ft^%1tS~dt+;"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">120</field></shadow></value><next><block type="device_show_leds" id="tL!CLgQ}f+L_o(Wg1P%N"><field name="LEDS">`
+        # # . # # 
+        . . . . . 
+        # . # . # 
+        # . . . # 
+        . # # # .
+        `</field></block></next></block></statement></block><block type="input_on_sound" id="OP{N(DmkN?.%Z[^@T5|m" x="405" y="-7"><field name="sound">DetectedSound.Loud</field><statement name="HANDLER"><block type="controls_repeat_ext" id="HDEpz(jLLH`H3LI/v)Cd"><value name="TIMES"><shadow type="math_whole_number" id="y7z#!Ab}o5/UWRZEq|Dg"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_show_leds" id="EqydT/M4G:FiK#y@t=.O"><field name="LEDS">`
+        # . # . # 
+        . # # # . 
+        . . # . . 
+        . # . # . 
+        . # . # .
+        `</field><next><block type="device_show_leds" id="e5^{nY*wemESN}FBE.)|"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # . # . # 
+        . # . # . 
+        . # . # .
+        `</field><next><block type="device_pause" id="f}V?{d=LMh`ol0Tk?Ad+"><value name="pause"><shadow type="timePicker" id="P,n%Ev/O+1BrkJ0L6?R0"><field name="ms">500</field></shadow></value></block></next></block></next></block></statement><next><block type="controls_repeat_ext" id="C[Msq_=qV(37]G/TTabw"><value name="TIMES"><shadow type="math_whole_number" id="xL2);SQ%tNG~0[+,v;Yi"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_print_message" id=",COfm5#Aa`8WyJkrL8un"><value name="text"><shadow type="text"><field name="TEXT">Hello!</field></shadow><block type="device_temperature" id="gaM@pklZX(c#W{_Ngu@0"></block></value></block></statement></block></next></block></statement></block><block type="device_forever" id="CZPEpyNnM+XL*vTOCp8^" x="789" y="-7"></block></xml>
